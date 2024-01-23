@@ -43,9 +43,9 @@ function Shortener() {
 
   return (
     <>
-      <section className="max-width shortner relative">
+      <section className="max-width shortener relative">
         <picture>
-          <source media="min-wdith: 768px" srcSet={bgDesktop} />
+          <source media="(min-wdith: 768px)" srcSet={bgDesktop} />
           <img src={bgMobile} alt="" />
         </picture>
         <form className="form" onSubmit={handleSubmit}>
@@ -73,10 +73,10 @@ function Shortener() {
           <article>
             <ul className="md:flex md:items-center">
               <li className="md:mr-5">
-                <button className="text-cyan-500" onClick={handleCopy}>{links.full_short_link}</button>
+                <button className="text-cyan-500" >{links.full_short_link}</button>
               </li>
               <li>
-                <button>{buttonText}</button>
+                <button onClick={handleCopy} className="btn-cta rounded-lg text-sm focus:bg-slate-800">{buttonText}</button>
               </li>
             </ul>
           </article>
