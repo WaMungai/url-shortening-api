@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img{
+  max-width: 100%;
+}
+
 ul,
 li {
   list-style-type: none;
@@ -14,20 +18,28 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.max-width{
+  @apply px-5 lg:max-w-5xl lg:mx-auto xl:max-w-6xl 2xl:px-0;
+}
+h1{
+  line-height: 1.2 !important;
+}
+p{
+  line-height: 1.8;
+}
 .btn-cta {
   @apply bg-cyan-500 py-2 px-4 text-white hover:opacity-75 transition-all duration-150 cursor-pointer;
 }
-.shortner{
+.shortener{
   background-color: hsl(257, 27%, 26%);
   height:17.188rem;
   border-radius:8px;
 }
-.shortner img{
+.shortener img{
   height: 17.188rem;
   @apply w-full rounded-lg
 }
-.shortner .form{
+.shortener .form{
   position: absolute;
   left:50%;
   top:50%;
