@@ -8,9 +8,9 @@ function Advanced() {
     <>
       <section className="bg-gray-100 pt-32 pb-10 lg:pb-40">
         <div className="max-width">
-          <h1 className="text-4xl font-bold text-slate-800 mb-3 text-center">
+          <h2 className="text-4xl font-bold text-slate-800 mb-3 text-center">
             Advanced Statistics
-          </h1>
+          </h2>
           <p className="text-slate-400 text-center mb-10 lg:mb-20">
             {" "}
             Track how your links are performing across the web <br /> with our
@@ -18,12 +18,12 @@ function Advanced() {
           </p>
           <div className="relative card grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="line"></div>
-            <div>
+           
               <article className="bg-white p-5 rounded relative">
                 <img
                   src={brand}
                   alt=""
-                  className="p-3 -mt-2 bg-slate-800 rounded-full"
+                  className="p-3 -mt-12 bg-slate-800 rounded-full"
                 />
                 <h3 className="text-slate-800 text-lg mt-5 mb-2 font-bold">
                   Brand Recognition
@@ -38,7 +38,7 @@ function Advanced() {
                 <img
                   src={records}
                   alt=""
-                  className="p-3 -mt-2 bg-slate-800 rounded-full"
+                  className="p-3 -mt-12 bg-slate-800 rounded-full"
                 />
                 <h3 className="text-slate-800 text-lg mt-5 mb-2 font-bold">
                   Detailed Records
@@ -53,7 +53,7 @@ function Advanced() {
                 <img
                   src={fully}
                   alt=""
-                  className="p-3 -mt-2 bg-slate-800 rounded-full"
+                  className="p-3 -mt-12 bg-slate-800 rounded-full"
                 />
                 <h3 className="text-slate-800 text-lg mt-5 mb-2 font-bold">
                   Fully Customizable
@@ -63,7 +63,7 @@ function Advanced() {
                   customizable links, supercharging audience engagement.
                 </p>
               </article>
-            </div>
+            
           </div>
         </div>
       </section>
