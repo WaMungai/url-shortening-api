@@ -34,3 +34,17 @@ body {
   transform: translate(-50%, -50%);
   width: 80%;
 }
+.boost{
+  background-color: hsl(257, 27%, 26%);
+  @apply w-full;
+}
+.boost img {
+  height:17.188rem;
+  @apply w-full;
+}
+.boost .boost-inner{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
